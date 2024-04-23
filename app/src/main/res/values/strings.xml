@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UniDevHub</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home\n</string>
+    <string name="connection">Connection\n</string>
+    <string name="project">Project\n</string>
+    <string name="community">Community\n</string>
+    <string name="profile">Profile\n</string>
+    <string name="liked">liked\n</string>
+    <string name="like">like</string>
+    <string name="listing_py">import random\n\ndef intro():\n    print(\"Welcome to the Adventure Game!\")\n    print(\"You find yourself in a mysterious land...\")\n    print(\"Your goal is to reach the treasure and escape alive!\")\n    print(\"But be careful, danger lurks around every corner...\")\n    print()\n\ndef choose_path():\n    print(\"You come to a fork in the road.\")\n    print(\"Do you want to go left or right?\")\n    choice = input(\"Enter \'left\' or \'right\': \").lower()\n    if choice == \"left\":\n        print(\"You chose to go left.\")\n        return \"left\"\n    elif choice == \"right\":\n        print(\"You chose to go right.\")\n        return \"right\"\n    else:\n        print(\"Invalid choice. Try again.\")\n        return choose_path()\n\ndef encounter_enemy():\n    print(\"Oh no! You\'ve encountered an enemy!\")\n    print(\"Prepare to fight!\")\n    # Insert combat mechanics here\n    print(\"You defeated the enemy and continue on your journey.\")\n\ndef find_treasure():\n    print(\"Congratulations! You\'ve found the treasure!\")\n    print(\"You are now rich beyond your wildest dreams.\")\n    print(\"But remember, the adventure doesn\'t end here...\")\n\ndef main():\n    intro()\n    path = choose_path()\n    if path == \"left\":\n        encounter_enemy()\n    else:\n        print(\"You continue down the right path.\")\n    print(\"After a long journey, you finally see a glimmer in the distance.\")\n    find_treasure()\n    print(\"Thanks for playing!\")\n\nif __name__ == \"__main__\":\n    main()\n</string>
+    <string name="default_web_client_id">537689132981-cohel1urlmkt4j6ec083itrn8sa01emt.apps.googleusercontent.com\n</string>
+
+</resources>

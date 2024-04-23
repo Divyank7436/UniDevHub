@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "537689132981",
+    "project_id": "unidevhub",
+    "storage_bucket": "unidevhub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537689132981:android:3c740c22d37fb1ac3713fc",
+        "android_client_info": {
+          "package_name": "com.example.unidevhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537689132981-68jglelkchh4iedcf9vsanuv7rugfp8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.unidevhub",
+            "certificate_hash": "8865cbdee548d284d856de8356a6f92e5f6b26a7"
+          }
+        },
+        {
+          "client_id": "537689132981-cohel1urlmkt4j6ec083itrn8sa01emt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrwBDXw57u1d-pyw2qT-hDIFavlsb0c8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537689132981-cohel1urlmkt4j6ec083itrn8sa01emt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
